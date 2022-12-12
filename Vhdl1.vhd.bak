@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164 .all;
+
+entity Vhdl1 is
+end Vhdl1;
+
+
+architecture behaviour of Vhdl1 is
+
+	component Completo
+	port 
+		inclk0: in STD_Logic

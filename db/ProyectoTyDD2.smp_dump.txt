@@ -1,0 +1,19 @@
+
+State Machine - |Completo|ProyectoTyDD2:inst2|fstate
+Name fstate.P_000 fstate.O_001 fstate.N_011 fstate.M_010 fstate.L_101 fstate.K_100 fstate.J_111 fstate.I_110 fstate.H_001 fstate.G_011 fstate.F_101 fstate.E_111 fstate.D_010 fstate.C_110 fstate.B_100 fstate.A_000 
+fstate.A_000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+fstate.B_100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+fstate.C_110 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+fstate.D_010 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+fstate.E_111 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+fstate.F_101 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+fstate.G_011 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+fstate.H_001 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+fstate.I_110 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+fstate.J_111 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+fstate.K_100 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+fstate.L_101 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+fstate.M_010 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+fstate.N_011 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+fstate.O_001 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+fstate.P_000 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

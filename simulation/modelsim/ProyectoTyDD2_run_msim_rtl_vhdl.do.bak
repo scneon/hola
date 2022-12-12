@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Celeste/Desktop/lab3/LabFinal/db {C:/Users/Celeste/Desktop/lab3/LabFinal/db/lab_pll_altpll.v}
+vcom -93 -work work {C:/Users/Celeste/Desktop/lab3/LabFinal/ProyectoTyDD2.vhd}
+vcom -93 -work work {C:/Users/Celeste/Desktop/lab3/LabFinal/lab_PLL.vhd}
+

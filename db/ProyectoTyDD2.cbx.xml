@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ProyectoTyDD2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Completo|lab_PLL:inst|altpll:altpll_component" CBX_FILE_NAME="lab_PLL_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,136 @@
+|Completo
+Z2 <= ProyectoTyDD2:inst2.Z2
+inclk0 => lab_PLL:inst.inclk0
+areset => lab_PLL:inst.areset
+N => ProyectoTyDD2:inst2.N
+Z1 <= ProyectoTyDD2:inst2.Z1
+Z0 <= ProyectoTyDD2:inst2.Z0
+LEDZ2 <= ProyectoTyDD2:inst2.Z2
+LEDZ1 <= ProyectoTyDD2:inst2.Z1
+LEDZ0 <= ProyectoTyDD2:inst2.Z0
+c0 <= lab_PLL:inst.c0
+lock <= lab_PLL:inst.locked
+
+
+|Completo|ProyectoTyDD2:inst2
+clock => fstate~1.DATAIN
+reset => reg_fstate.A_000.OUTPUTSELECT
+reset => reg_fstate.B_100.OUTPUTSELECT
+reset => reg_fstate.C_110.OUTPUTSELECT
+reset => reg_fstate.D_010.OUTPUTSELECT
+reset => reg_fstate.E_111.OUTPUTSELECT
+reset => reg_fstate.F_101.OUTPUTSELECT
+reset => reg_fstate.G_011.OUTPUTSELECT
+reset => reg_fstate.H_001.OUTPUTSELECT
+reset => reg_fstate.I_110.OUTPUTSELECT
+reset => reg_fstate.J_111.OUTPUTSELECT
+reset => reg_fstate.K_100.OUTPUTSELECT
+reset => reg_fstate.L_101.OUTPUTSELECT
+reset => reg_fstate.M_010.OUTPUTSELECT
+reset => reg_fstate.N_011.OUTPUTSELECT
+reset => reg_fstate.O_001.OUTPUTSELECT
+reset => reg_fstate.P_000.OUTPUTSELECT
+reset => Z2.OUTPUTSELECT
+reset => Z1.OUTPUTSELECT
+reset => Z0.OUTPUTSELECT
+N => Selector7.IN3
+N => Selector9.IN3
+N => Selector11.IN3
+N => Selector1.IN0
+N => Selector3.IN0
+N => Selector5.IN0
+N => Selector13.IN2
+N => reg_fstate.DATAB
+N => Selector8.IN2
+N => Selector10.IN2
+N => Selector12.IN2
+N => Selector2.IN1
+N => Selector4.IN0
+N => Selector6.IN1
+N => Selector14.IN2
+N => Selector0.IN1
+Z2 <= Z2.DB_MAX_OUTPUT_PORT_TYPE
+Z1 <= Z1.DB_MAX_OUTPUT_PORT_TYPE
+Z0 <= Z0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Completo|lab_PLL:inst
+areset => altpll:altpll_component.areset
+inclk0 => altpll:altpll_component.inclk[0]
+c0 <= altpll:altpll_component.clk[0]
+locked <= altpll:altpll_component.locked
+
+
+|Completo|lab_PLL:inst|altpll:altpll_component
+inclk[0] => lab_PLL_altpll:auto_generated.inclk[0]
+inclk[1] => lab_PLL_altpll:auto_generated.inclk[1]
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => lab_PLL_altpll:auto_generated.areset
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+clk[0] <= clk[0].DB_MAX_OUTPUT_PORT_TYPE
+clk[1] <= clk[1].DB_MAX_OUTPUT_PORT_TYPE
+clk[2] <= clk[2].DB_MAX_OUTPUT_PORT_TYPE
+clk[3] <= clk[3].DB_MAX_OUTPUT_PORT_TYPE
+clk[4] <= clk[4].DB_MAX_OUTPUT_PORT_TYPE
+extclk[0] <= <GND>
+extclk[1] <= <GND>
+extclk[2] <= <GND>
+extclk[3] <= <GND>
+clkbad[0] <= <GND>
+clkbad[1] <= <GND>
+enable1 <= <GND>
+enable0 <= <GND>
+activeclock <= <GND>
+clkloss <= <GND>
+locked <= lab_PLL_altpll:auto_generated.locked
+scandataout <= <GND>
+scandone <= <GND>
+sclkout0 <= <GND>
+sclkout1 <= <GND>
+phasedone <= <GND>
+vcooverrange <= <GND>
+vcounderrange <= <GND>
+fbout <= <GND>
+fref <= <GND>
+icdrclk <= <GND>
+
+
+|Completo|lab_PLL:inst|altpll:altpll_component|lab_PLL_altpll:auto_generated
+areset => pll_lock_sync.ACLR
+areset => pll1.ARESET
+clk[0] <= pll1.CLK
+clk[1] <= pll1.CLK1
+clk[2] <= pll1.CLK2
+clk[3] <= pll1.CLK3
+clk[4] <= pll1.CLK4
+inclk[0] => pll1.CLK
+inclk[1] => pll1.CLK1
+locked <= locked.DB_MAX_OUTPUT_PORT_TYPE
+
+

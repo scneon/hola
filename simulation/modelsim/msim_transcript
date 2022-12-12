@@ -1,0 +1,66 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ProyectoTyDD2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Celeste/Desktop/lab3/LabFinal/db {C:/Users/Celeste/Desktop/lab3/LabFinal/db/lab_pll_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab_PLL_altpll
+# 
+# Top level modules:
+# 	lab_PLL_altpll
+# vcom -93 -work work {C:/Users/Celeste/Desktop/lab3/LabFinal/ProyectoTyDD2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ProyectoTyDD2
+# -- Compiling architecture BEHAVIOR of ProyectoTyDD2
+# vcom -93 -work work {C:/Users/Celeste/Desktop/lab3/LabFinal/lab_PLL.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lab_PLL
+# -- Compiling architecture SYN of lab_pll
+# 
+# vcom -93 -work work {C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Vhdl1
+# -- Compiling architecture behavior of Vhdl1
+# ** Warning: [4] C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  Vhdl1
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Vhdl1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.vhdl1(behavior)
+# ** Warning: (vsim-3473) Component instance "uut : Completo" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /vhdl1 File: C:/Users/Celeste/Desktop/lab3/LabFinal/Vhdl1.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Simulation stop requested.
